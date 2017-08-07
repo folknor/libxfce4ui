@@ -11,6 +11,7 @@ AM_CPPFLAGS = \
 	-DLIBEXECDIR=\"$(libexecdir)\" \
 	-DLIBXFCE4UI_VERSION_API=\"$(LIBXFCE4UI_VERSION_API)\" \
 	-DPACKAGE_LOCALE_DIR=\"$(localedir)\" \
+	-Wno-expansion-to-defined \
 	$(PLATFORM_CPPFLAGS)
 
 libxfce4ui_enum_headers = \
